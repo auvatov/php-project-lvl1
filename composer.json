@@ -2,7 +2,8 @@
     "name": "hexlet/code",
     "bin": [
         "bin/brain-games",
-        "bin/brain-even"
+        "bin/brain-even",
+        "bin/brain-calc"
     ],
     "description": "my first php hexlet project",
     "license": "GPL-3.0-or-later",
@@ -10,8 +11,10 @@
     "autoload": {
 	"files": [
             "src/Cli.php",
-            "src/Even.php"
-        ],
+            "src/Even.php",
+            "src/Engine.php",
+            "src/Games/Calc.php"
+            ],
         "psr-4": {
             "Hexlet\\Code\\": "src/"
         }
