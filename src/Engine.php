@@ -5,6 +5,8 @@ namespace BrainGames\Engine;
 use function cli\line;
 use function cli\prompt;
 
+const ROUNDS = 3;
+
 function acquaintance()
 {
     line('Welcome to the Brain Game!');

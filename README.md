@@ -4,3 +4,4 @@
 <a href="https://codeclimate.com/github/auvatov/php-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/5bdcf79c0033c1eed6e0/maintainability" /></a>
 
 My asciinema from Step five: https://asciinema.org/a/516787
+My asciinema from Step six: https://asciinema.org/a/CZMsgHdNTE2k7r3yVKrG1VTC6
