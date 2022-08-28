@@ -13,6 +13,9 @@ brain-calc:
 brain-bcd:
 	php ./bin/brain-bcd
 
+brain-progression:
+	php ./bin/brain-progression
+
 validate:
 	composer validate
 

@@ -7,3 +7,5 @@ My asciinema from Step five: https://asciinema.org/a/516787
 My asciinema from Step six: https://asciinema.org/a/CZMsgHdNTE2k7r3yVKrG1VTC6
 
 <a href="https://asciinema.org/a/n7z4dpPWteKueUhSzafgGYM1g" target="_blank"><img src="https://asciinema.org/a/n7z4dpPWteKueUhSzafgGYM1g.svg" /></a>
+
+https://asciinema.org/a/KBNvsqoFGDvbLNn3dJRlEyHbM
