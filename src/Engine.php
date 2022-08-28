@@ -9,7 +9,7 @@ const ROUNDS = 3;
 
 function acquaintance()
 {
-    line('Welcome to the Brain Game!');
+    line('Welcome to the Brain Games!');
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
     return $name;

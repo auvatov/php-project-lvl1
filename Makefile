@@ -10,6 +10,9 @@ brain-even:
 brain-calc:
 	php ./bin/brain-calc
 
+brain-bcd:
+	php ./bin/brain-bcd
+
 validate:
 	composer validate
 
