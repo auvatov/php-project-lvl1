@@ -1,6 +1,6 @@
 #!/usr/bin/env php
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
-use function BrainGames\Games\BCD\brainBCD;
+use function BrainGames\Games\GCD\brainGCD;
 
-brainBCD();
+brainGCD();

@@ -10,8 +10,8 @@ brain-even:
 brain-calc:
 	php ./bin/brain-calc
 
-brain-bcd:
-	php ./bin/brain-bcd
+brain-gcd:
+	php ./bin/brain-gcd
 
 brain-progression:
 	php ./bin/brain-progression

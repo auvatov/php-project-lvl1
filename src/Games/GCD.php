@@ -1,6 +1,6 @@
 <?php
 
-namespace BrainGames\Games\BCD;
+namespace BrainGames\Games\GCD;
 
 use function cli\line;
 use function cli\prompt;
@@ -36,7 +36,7 @@ function getQuestionAndAnswer(): array
     return [$question, (string) $answer];
 }
 
-function brainBcd()
+function brainGcd()
 {
     $name = acquaintance();
     line("Find the greatest common divisor of given numbers.");
