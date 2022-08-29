@@ -28,5 +28,5 @@ function brainEven()
         }
         $roundCount--;
     }
-    line("Congratilations, %s!", $name);
+    line("Congratulations, %s!", $name);
 }

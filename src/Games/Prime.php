@@ -42,5 +42,5 @@ function brainPrime()
         }
         $roundCount--;
     }
-    line("Congratilations, %s!", $name);
+    line("Congratulations, %s!", $name);
 }

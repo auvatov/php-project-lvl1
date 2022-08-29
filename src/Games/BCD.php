@@ -49,5 +49,5 @@ function brainBcd()
         }
         $roundCount--;
     }
-    line("Congratilations, %s!", $name);
+    line("Congratulations, %s!", $name);
 }
