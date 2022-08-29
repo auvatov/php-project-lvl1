@@ -26,7 +26,7 @@ function getQuestionAndAnswer(): array
     $progArray[$hideElementIndex] = "..";
     $question = implode(" ", $progArray);
 
-    return [$question, $answer];
+    return [$question, (string) $answer];
 }
 
 function brainProg()
