@@ -18,7 +18,7 @@ function acquaintance()
 function compare($question, $answer)
 {
     line("Question: %s", $question);
-    $userAnswer = (int) prompt("Your answer");
+    $userAnswer = prompt("Your answer");
     if ($userAnswer === $answer) {
         line('Correct!');
         return true;

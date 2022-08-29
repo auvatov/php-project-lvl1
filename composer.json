@@ -5,7 +5,8 @@
         "bin/brain-even",
         "bin/brain-calc",
         "bin/brain-bcd",
-        "bin/brain-progression"
+        "bin/brain-progression",
+        "bin/brain-prime"
     ],
     "description": "my first php hexlet project",
     "license": "GPL-3.0-or-later",
@@ -17,7 +18,8 @@
             "src/Engine.php",
             "src/Games/Calc.php",
             "src/Games/BCD.php",
-            "src/Games/Progression.php"
+            "src/Games/Progression.php",
+            "src/Games/Prime.php"
             ],
         "psr-4": {
             "Hexlet\\Code\\": "src/"

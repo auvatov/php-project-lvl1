@@ -33,7 +33,7 @@ function getQuestionAndAnswer(): array
     if ($answer === null) {
         $answer = 1;
     }
-    return [$question, $answer];
+    return [$question, (string) $answer];
 }
 
 function brainBcd()
