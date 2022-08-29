@@ -15,6 +15,8 @@ function getQuestionAndAnswer(): array
     $num2 = mt_rand(0, 100);
     $question = "{$num1} {$num2}";
     $answer = null;
+    $lesser = 0;
+    $greater = 0;
     if ($num1 < $num2) {
         $lesser = $num1;
         $greater = $num2;
@@ -24,13 +26,13 @@ function getQuestionAndAnswer(): array
     } else {
         $answer = $num1;
     }
-    for ($i = 1; !$answer and $i <= $lesser / 2; $i++) {
+    for ($i = 1; is_null($answer) and $i <= $lesser / 2; $i++) {
         $divider = $lesser / $i;
         if ($divider == round($divider) and $greater % $divider === 0) {
             $answer = $divider;
         }
     }
-    if ($answer === null) {
+    if (is_null($answer)) {
         $answer = 1;
     }
     return [$question, (string) $answer];

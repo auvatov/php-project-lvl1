@@ -15,7 +15,7 @@ function acquaintance()
     return $name;
 }
 
-function compare($question, $answer)
+function compare(string $question, string $answer)
 {
     line("Question: %s", $question);
     $userAnswer = prompt("Your answer");
